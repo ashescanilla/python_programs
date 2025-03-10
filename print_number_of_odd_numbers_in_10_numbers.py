@@ -44,3 +44,4 @@ if num10 % 2 != 0:
     odd_count += 1
 
 # Print the value of the variable after 10 inputs
+print(odd_count)
