@@ -11,3 +11,4 @@ elif num2 > num1:
     bigger_number = num2
 
 # Print the bigger number
+print(bigger_number)
