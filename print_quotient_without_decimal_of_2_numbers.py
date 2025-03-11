@@ -7,3 +7,4 @@ if num2 != 0:
     # Floor divide the two numbers using (//) operator
     result = num1 // num2
     # Print the result
+    print(result)
