@@ -8,3 +8,4 @@ start = min(num1, num2) + 1
 end = max(num1, num2)
 
 # Print the range of numbers
+print(*range(start, end))
