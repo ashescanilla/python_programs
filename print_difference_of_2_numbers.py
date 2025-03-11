@@ -6,3 +6,4 @@ num2 = int(input("Enter the second number: "))
 result = num1 - num2
 
 # Print the result
+print(result)
