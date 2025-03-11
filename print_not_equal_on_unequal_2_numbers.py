@@ -3,4 +3,6 @@ num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
 # Check if the numbers are unequal
-# If so, print "Not Equal"
+if num1 != num2:
+    # If so, print "Not Equal"
+    print("Not Equal")
