@@ -7,3 +7,4 @@ if num2 != 0:
     # Calculate the remainder of the two numbers using the modulus operator (%)
     remainder = num1 % num2
     # Print the remainder
+    print(remainder)
