@@ -10,3 +10,4 @@ for i in range(10):
         even_count += 1
 
 # After the loop, print the counter variable
+print(even_count)
