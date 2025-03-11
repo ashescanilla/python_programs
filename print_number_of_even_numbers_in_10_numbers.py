@@ -5,6 +5,8 @@ even_count = 0
 for i in range(10):
     num = int(input("Enter a number: "))
     # Inside the loop, check if the number is even by using the modulus operator (%)
-    # If the number is even, increment the counter variable by 1
-    
+    if num % 2 == 0:
+        # If the number is even, increment the counter variable by 1
+        even_count += 1
+
 # After the loop, print the counter variable
