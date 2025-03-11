@@ -7,3 +7,4 @@ for i in range(2,11):
     num1 -= num
 
 # Print the modified first number after the loop ends
+print(num1)
