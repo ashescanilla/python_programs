@@ -2,5 +2,7 @@
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
-# Floor divide the two numbers using (//) operator
-# Print the result
+# Check if the second input is not zero
+if num2 != 0:
+    # Floor divide the two numbers using (//) operator
+    # Print the result
