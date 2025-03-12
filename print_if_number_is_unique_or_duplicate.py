@@ -3,14 +3,17 @@ numbers = set()
 
 while True:
     try:
-    # Ask user for a number
-    num = int(input("Enter a number: "))
+        # Ask user for a number
+        num = int(input("Enter a number: "))
 
-    # Check if the number is unique or a duplicate
-      if num in numbers:
+        # Check if the number is unique or a duplicate
+        if num in numbers:
             print("Duplicate")
         else:
             print("Unique")
             numbers.add(num)
 
-    # Exit the loop if an invalid input is entered
+    except ValueError:
+        # Exit the loop if an invalid input is entered
+        print("Invalid input. Exiting.")
+        break
