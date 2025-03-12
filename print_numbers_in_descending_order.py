@@ -11,3 +11,5 @@ while True:
         break  # Stop taking input on invalid entry
 
 # Print the numbers in descending order if there is at least one valid entry.
+if numbers:
+    print("Numbers entered (highest to lowest):", numbers.sort(reverse=True))
