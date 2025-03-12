@@ -16,5 +16,6 @@ while True:
 if numbers:
     # Calculate the average by dividing the sum by the number of elements in the list
     average = sum(numbers) / len(numbers)
-    
+
     # Print the average
+    print(f"The average of the numbers is: {average}")
