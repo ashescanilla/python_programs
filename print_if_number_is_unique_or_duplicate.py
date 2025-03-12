@@ -1,10 +1,10 @@
 # Set to store unique numbers
 numbers = set()
 
-while True:
-    try:
-        # Ask user for a number
-        num = int(input("Enter a number: "))
+while True: 
+    try: 
+        # Ask user for a number 
+        num = int(input("Enter a number: ")) 
 
         # Identify if the number is unique or a duplicate
         if num in numbers: 
