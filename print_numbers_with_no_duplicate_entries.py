@@ -10,5 +10,8 @@ for _ in range(10):
     if num not in seen:
         numbers.append(num)
         seen.add(num)
-        
+
 # Print the numbers while ignoring duplicate entries  
+print("Numbers displayed with only their first occurrence:")
+for num in numbers:
+    print(num)
