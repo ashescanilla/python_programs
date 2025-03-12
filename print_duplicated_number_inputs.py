@@ -20,3 +20,4 @@ for key, value in number_inputs.items():
         duplicate_numbers.append(key)
 
 # Print the list of numbers that were entered multiple times
+print(duplicate_numbers)
