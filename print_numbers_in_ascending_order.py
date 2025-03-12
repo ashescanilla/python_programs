@@ -9,5 +9,10 @@ while True:
         numbers.append(num)
     except ValueError:
         break  # Stop taking input on invalid entry
-    
+
 # Print the numbers in ascending order if there is at least one valid entry.
+if numbers:
+    numbers.sort()
+    print("Numbers sorted from lowest to highest:", numbers)
+else:
+    print("No valid numbers were entered.")
