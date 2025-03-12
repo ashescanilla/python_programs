@@ -13,5 +13,8 @@ while True:
         break
 
 # Check if there were valid inputs
-# Calculate the average by dividing the sum by the number of elements in the list
-# Print the average
+if numbers:
+    # Calculate the average by dividing the sum by the number of elements in the list
+    average = sum(numbers) / len(numbers)
+    
+    # Print the average
