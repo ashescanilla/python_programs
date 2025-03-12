@@ -5,6 +5,10 @@ seen = set()
 
 for _ in range(10):
     num = int(input("Enter a number: "))
-    
-# Add the number only if it hasn't been entered previously
+
+    # Only add the number if it hasn't been seen before
+    if num not in seen:
+        numbers.append(num)
+        seen.add(num)
+        
 # Print the numbers while ignoring duplicate entries  
