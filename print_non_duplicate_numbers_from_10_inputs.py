@@ -16,5 +16,9 @@ for num in numbers:
         frequency_count[num] += 1
     else:
         frequency_count[num] = 1
-        
+
 # Display numbers that appear only once
+print("Unique numbers (no duplicates):")
+for num in numbers:
+    if frequency_count[num] == 1:
+        print(num)
