@@ -12,3 +12,7 @@ while True:
         break  # Exit the loop when an invalid input is entered
 
 # Print the lowest number if a valid entry has been recorded.
+if numbers:
+    print("The lowest number entered is:", min(numbers))
+else:
+    print("No valid numbers were entered.")
