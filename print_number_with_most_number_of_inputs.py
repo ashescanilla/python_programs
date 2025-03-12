@@ -13,13 +13,18 @@ while True:
         else:
             # otherwise add the number to the dictionary with an input count of 1
             numbers[number] = 1
-            
+
     # If the user enters an invalid integer value,
     except ValueError:
         # break out of the while loop
         break
 
 # Create a variable to store the number with the highest input count, and set its current value to "None"
+number_with_highes_input_count = None
 # Iterate through the dictionary and identify the number with the highest input count
+for number, count in numbers.items():
+    if number_with_highes_input_count is None or count > numbers[number_with_highes_input_count]:
+        number_with_highes_input_count = number
+        
 # Check if there were any valid inputs by checking if the variable is not "None"
 # Print the variable
