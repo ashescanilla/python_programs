@@ -12,6 +12,11 @@ for i in range(10):
         number_inputs[user_input] = 1
 
 # Create an empty list to store duplicate numbers
+duplicate_numbers = []
 # Iterate through the dictionary
-#   - If a number appears more than once, add it to the list
+for key, value in number_inputs.items():
+    # If a number appears more than once, add it to the list
+    if value > 1:
+        duplicate_numbers.append(key)
+
 # Print the list of numbers that were entered multiple times
