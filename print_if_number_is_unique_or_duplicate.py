@@ -6,12 +6,12 @@ while True:
         # Ask user for a number
         num = int(input("Enter a number: "))
 
-        # Check if the number is unique or a duplicate
-        if num in numbers:
-            print("Duplicate")
-        else:
-            print("Unique")
-            numbers.add(num)
+        # Identify if the number is unique or a duplicate
+        if num in numbers: 
+            print("Duplicate") 
+        else: 
+            print("Unique") 
+            numbers.add(num) 
 
     except ValueError:
         # Exit the loop if an invalid input is entered
