@@ -11,4 +11,10 @@ for _ in range(10):
 frequency_count = {}
 
 # Record the frequency of each number in the list
+for num in numbers:
+    if num in frequency_count:
+        frequency_count[num] += 1
+    else:
+        frequency_count[num] = 1
+        
 # Display numbers that appear only once
