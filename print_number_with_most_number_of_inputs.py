@@ -25,6 +25,8 @@ number_with_highes_input_count = None
 for number, count in numbers.items():
     if number_with_highes_input_count is None or count > numbers[number_with_highes_input_count]:
         number_with_highes_input_count = number
-        
+
 # Check if there were any valid inputs by checking if the variable is not "None"
-# Print the variable
+if number_with_highes_input_count is not None:
+    # Print the variable
+    print(f"The number with the highest input count is {number_with_highes_input_count}")
