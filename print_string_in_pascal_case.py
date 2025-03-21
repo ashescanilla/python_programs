@@ -5,3 +5,4 @@ full_name = full_name.title()
 # Use the 'strip()' method to remove the leading and trailing spaces from the name
 full_name = full_name.strip()
 # Print the formatted name
+print(full_name)
